@@ -133,7 +133,7 @@ The authentication microservice intermittently returns timeouts during peak usag
 
 ---
 
-### Proposed Code Example: Channel-Based Concurrency
+### Proposed Code Example: Channel-Based Concurrency and faster alternative to `Fprintf`
 
 ```go
 package main
