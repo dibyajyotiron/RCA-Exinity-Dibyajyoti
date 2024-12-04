@@ -2,7 +2,7 @@
 
 ## Assumptions for the Assessment
 
-1. Since `time.Sleep(200ms)` simulates processing delay,it is assumed that sleep not a production bottleneck.
+1. Since `time.Sleep(200 * time.Millisecond)` simulates processing delay,it is assumed that sleep not a production bottleneck.
 2. The authentication service is hosted in AWS behind an ALB (Application Load Balancer) with the default idle timeout of 60 seconds.
 3. Only a single pod of the auth service is running, as the requirement does not specify how many instances of the service we're running.
 
